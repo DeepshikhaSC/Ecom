@@ -1,8 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Header from './components/Header';
+import { Container } from 'react-bootstrap';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>Welcome to our Ecommerce Website!!!!</div>
+    <React.Fragment>
+      <Header/>
+      <main className='my-2'>
+        <Container>
+           <h3>Welcome to our Website</h3>
+        </Container>
+      </main>
+      <Footer/>
+    </React.Fragment>
   )
 }
 
