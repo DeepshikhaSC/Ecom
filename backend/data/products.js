@@ -5,7 +5,7 @@ const products = [
     image: "/images/camera.jpg",
     description:
       "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
-    brand: "Apple",
+    brand: "Sony",
     category: "Electronics",
     price: 152.99,
     countInStock: 20,
@@ -31,7 +31,7 @@ const products = [
     image: "/images/earphone.jpg",
     description:
       "Characterized by versatile sound, eapphonesfurther clarifies itself using a pair of robust focusing systems and an intuitive design",
-    brand: "Cannon",
+    brand: "mivi",
     category: "Electronics",
     price: 450.99,
     countInStock: 15,
@@ -53,11 +53,11 @@ const products = [
   },
   {
     _id: "5",
-    name: "Logitech G-Series Gaming Mouse",
+    name: "Smart Watch",
     image: "/images/smart-watch.jpg",
     description:
       "Hustle up a notch with Mivi's Smartwatch Model E. Begin the journey towards a healthier you by tracking your vitals and monitor your health, wherever you are.",
-    brand: "Logitech",
+    brand: "mivi",
     category: "Electronics",
     price: 128.99,
     countInStock: 17,
@@ -74,7 +74,7 @@ const products = [
     category: "Electronics",
     price: 499.99,
     countInStock: 0,
-    rating: 14,
+    rating: 5,
     numReviews: 120,
   },
 ];

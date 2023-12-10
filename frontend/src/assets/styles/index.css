@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rating span {
+  margin: 0.2rem;
+  color: yellow;
+}
+.rating-text {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+  color: black!important;
+}
+
+.product-name{
+  /* hide the overflow content from the card */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
